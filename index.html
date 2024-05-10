@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nivel</th>
+            <th>Comando</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr>
+            <td>froggy: 1</td>
+            <td>justify-content: flex-end;</td>
+            <td>Para alinear los elementos de un contenedor flexbox a lo largo del eje principal, pero en este caso, los alinea al final del contenedor.</td>
+        </tr>
+        <tr>
+            <td>froggy: 2</td>
+            <td>justify-content: center;</td>
+            <td> Para alinear los elementos a lo largo del eje principal del contenedor , lo que resulta en que los elementos se encuentren centrados horizontalmente dentro del contenedor flexbox.</td>
+        </tr>
+        <tr>
+            <td>froggy: 3</td>
+            <td>justify-content: space-around;</td>
+            <td>Para distribuir uniformemente el espacio alrededor de los elementos a lo largo del eje principal. Esto significa que habrá un espacio igual entre cada par de elementos</td>
+        </tr>
+        <tr>
+            <td>froggy: 4</td>
+            <td>justify-content: space-between;</td>
+            <td>Para distribuir uniformemente los elementos a lo largo del eje principal, con el primer elemento alineado con el borde inicial del contenedor y el último elemento alineado con el borde final del contenedor , habrá un espacio igual entre cada par de elementos, pero no habrá espacio adicional al principio o al final del contenedor.</td>
+        </tr>
+        <tr>
+            <td>froggy: 5</td>
+            <td>align-items: flex-end;</td>
+            <td>Se utiliza en contenedores flexbox para alinear los elementos secundarios a lo largo del eje transversal del contenedor. Cuando se establece en flex-end, los elementos se alinearán en el extremo inferior</td>
+        </tr>
+        <tr>
+            <td>froggy: 6</td>
+            <td>align-items: center;</td>
+            <td>Para alinear los elementos secundarios a lo largo del eje transversal del contenedor. Cuando se establece en center, los elementos se alinearán en el centro del contenedor en el eje transversal, </td>
+        </tr>
+        <tr>
+            <td>froggy: 7</td>
+            <td>justify-content: space-around;
+                align-items: flex-end;</td>
+            <td>distribuirá uniformemente el espacio entre los elementos a lo largo del eje principal del contenedor y alineará los elementos al final del contenedor en el eje transversal.</td>
+        </tr>
+        <tr>
+            <td>froggy: 8</td>
+            <td>flex-direction:row-reverse;</td>
+            <td>Para cambiar la dirección en la que se colocan los elementos en un contenedor flexbox y se colocaran en filas.</td>
+        </tr>
+        <tr>
+            <td>froggy: 9</td>
+            <td>flex-direction:column;</td>
+            <td>Para especificar que los elementos hijos de un contenedor flexbox se organicen en una columna en lugar de en filas</td>
+        </tr>
+        <tr>
+            <td>froggy: 10</td>
+            <td>justify-content:start; & flex-direction:row-reverse;</td>
+            <td>Alinea los elementos del contenedor flexbox hacia el inicio del eje principal y cambia la dirección en la que se colocan los elementos en el contenedor flexbox a filas,</td>       
+         </tr>
+        <tr>
+            <td>froggy: 11</td>
+            <td>justify-content:end; & flex-direction:column; & align-items:start;</td>
+            <td>Los elementos se organizarán en columnas, comenzando desde la parte superior del contenedor y apilándose hacia abajo.</td>        
+        </tr>
+        <tr>
+            <td>froggy: 12</td>
+            <td>justify-content:end; & flex-direction:column-reverse; & justify-content:space-between;</td>
+            <td>Los elementos se organizarán en columnas, pero en orden inverso al que aparecen en el HTML.</td>
+        </tr>
+        <tr>
+            <td>froggy: 13</td>
+            <td>justify-content:center; & flex-direction:row-reverse; & align-items:end;</td>
+            <td>Los elementos se organizarán en filas, pero en orden inverso al que aparecen en el código HTML.</td>        
+        </tr>
+        <tr>
+            <td>froggy: 14</td>
+            <td>order:1;</td>
+            <td>El elemento seleciconado cambia de posición con el elemento de su derecha</td>       
+         </tr>
+         <tr>
+            <td>froggy: 15</td>
+            <td>order:-3;</td>
+            <td>El elemento seleccionado cambia de orden con el elemento de su posicion tres veces a la izquierda</td>       
+         </tr>
+         <tr>
+            <td>froggy: 16</td>
+            <td>align-self:end;</td>
+            <td>Para anular la alineación predeterminada definida por align-items en un elemento específico dentro de un contenedor flexbox.</td>       
+         </tr>
+         <tr>
+            <td>froggy: 17</td>
+            <td>order:1; & align-self:end;</td>
+            <td>El elemento se mostrará después de los elementos con un orden predeterminado o un valor de orden menor.
+            </td>       
+         </tr>
+         <tr>
+            <td>froggy: 18</td>
+            <td>flex-wrap:wrap;</td>
+            <td>Para controlar si los elementos dentro del contenedor flexbox deben envolverse o no cuando no haya suficiente espacio en el contenedor para mostrarlos todos en una sola línea.</td>       
+         </tr>
+         <tr>
+            <td>froggy: 19</td>
+            <td>flex-direction:column; & flex-wrap:wrap;</td>
+            <td>Para que los elementos se organicen en columnas y se envuelvan a una nueva columna si no hay suficiente espacio vertical disponible </td>       
+         </tr>
+         <tr>
+            <td>froggy: 20</td>
+            <td>flex-wrap:wrap;</td>
+            <td>Los elementos dentro del contenedor flexbox se envolverán en una nueva fila si no hay suficiente espacio horizontal disponible para mostrar todos los elementos en una sola fila.</td>       
+         </tr>
+         <tr>
+            <td>froggy: 21</td>
+            <td>align-content:flex-start;</td>
+            <td>Alinea el contenido del contenedor flexbox hacia el inicio del eje transversal, asegurando que esté lo más cerca posible del borde del contenedor en esa dirección.
+            </td>       
+         </tr>
+         <tr>
+            <td>froggy: 22</td>
+            <td>align-content:end;</td>
+            <td>Para alinear el contenido en el extremo del eje transversal del contenedor cuando hay más espacio disponible del que se necesita en la dirección transversal.</td>       
+         </tr>
+         <tr>
+            <td>froggy: 23</td>
+            <td>flex-direction:column-reverse; & align-content:center;</td>
+            <td>Los elementos se organizarán en columnas, pero en orden inverso al que aparecen en el HTML, con el último elemento en la parte superior.</td>       
+         </tr>
+         <tr>
+            <td>froggy: 24</td>
+            <td>flex-wrap:wrap-reverse; & flex-direction:column-reverse; & justify-content:center; & align-content:space-between;</td>
+            <td>Los elementos se organizarán en columnas, pero en orden inverso al que aparece en el HTML, y se envolverán a nuevas columnas si es necesario.</td>       
+         </tr>
+    </table>
+
+    <body>
+        <table class="tabla2">
+            <tr>
+                <th>Nivel</th>
+                <th>Comando</th>
+                <th>Descripcion</th>
+            </tr>
+            <tr>
+                <td>defense: 1</td>
+                <td>justify-content:center;</td>
+                <td>Para centrar los elementos a lo largo del eje principal del contenedor.</td>
+            </tr>
+            <tr>
+                <td>defense: 2</td>
+                <td>ustify-content:flex-end; & justify-content:center; & justify-content:flex-end;</td>
+                <td>Los elementos del contenedor flexbox se alinearán hacia el extremo final del eje principal.
+               </td>
+            </tr>
+            <tr>
+                <td>defense: 3</td>
+                <td>justify-content:center; & justify-content:space-between;</td>
+                <td>Los elementos se distribuirán uniformemente a lo largo del eje principal, dejando un espacio igual entre cada par de elementos y en los extremos del contenedor.</td>
+            </tr>
+            <tr>
+                <td>defense: 4</td>
+                <td>align-items:flex-end; & align-items:flex-end;</td>
+                <td>alinea los elementos secundarios del contenedor flexbox hacia el extremo inferior del eje transversal del contenedor</td>
+            </tr>
+            <tr>
+                <td>defense: 5</td>
+                <td>justify-content:space-around; & align-items:flex-end; & justify-content:center; & justify-content:space-around; & align-items:center;</td>
+                <td>Los elementos se centrarán tanto horizontal como verticalmente, ya que justify-content: space-around; y align-items: center;</td>
+            </tr>
+            <tr>
+                <td>defense: 6</td>
+                <td>justify-content:space-between; & align-items:center;</td>
+                <td>Los elementos estarán distribuidos uniformemente a lo largo del eje principal, con espacio adicional entre ellos, mientras que estarán centrados verticalmente en el eje transversal.</td>
+            </tr>
+            <tr>
+                <td>defense: 7</td>
+                <td>flex-direction:column; & flex-direction:column;</td>
+                <td>Coloca ambos elementos en columna</td>
+            </tr>
+            <tr>
+                <td>defense: 8</td>
+                <td>flex-direction:column; & align-items:center; & flex-direction:column;</td>
+                <td>Los elementos estarán apilados verticalmente en columnas y centrados horizontalmente en el contenedor.</td>
+            </tr>
+            <tr>
+                <td>defense: 9</td>
+                <td>justify-content:space-around; & flex-direction:row-reverse; & justify-content:space-around; & align-items:center; & flex-direction:row-reverse;</td>
+                <td>Centrará verticalmente los elementos en el contenedor, independientemente de las direcciones y distribuciones previamente definidas.</td>
+            </tr>
+            <tr>
+                <td>defense: 10</td>
+                <td>justify-content:space-around; & order:1; & justify-content:space-around; & order:-1;</td>
+                <td>El espacio alrededor de los elementos se distribuirá uniformemente a lo largo del eje principal del contenedor flexbox, y el elemento con order: -1; se mostrará antes del elemento con order: 1;.</td>
+            </tr>
+            <tr>
+                <td>defense: 11</td>
+                <td>justify-content:space-between; & align-self:center; & align-self:flex-start; & align-self:flex-end; & align-self:center;</td>
+                <td>Los elementos se distribuirán uniformemente a lo largo del eje principal del contenedor, con espacio adicional entre ellos, y se alinearán verticalmente de la siguiente manera</td>
+            </tr>
+            <tr>
+                <td>defense: 12</td>
+                <td>justify-content:space-between; & align-items:center; & align-self:flex-start; & - & order:1; & - & order:1; & align-self:flex-end;</td>
+                <td>Los elementos se distribuirán uniformemente a lo largo del eje principal del contenedor con espacio adicional entre ellos.</td>
+            </tr>
+        </table>
+</body>
+</html>
